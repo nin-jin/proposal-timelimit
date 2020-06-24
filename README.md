@@ -1,4 +1,4 @@
-# Proposal: Function attributes
+# Proposal: Time limits
 
 Time limits for executions.
 
