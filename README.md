@@ -40,4 +40,4 @@ try(timeout) {
 - Prevent freeze-attack to the JS sandbox that runs a user provided code. Example: https://sandbox.js.hyoo.ru/#script=for%28%3B%3B%29%3B
 - Time slicing to prevent execution greater than animation frame.
 - Prevent app freeze on acidental infinite loop. As example: hot reload in dev mode are stoped on bugs like infinite recursion.
-- Stop executions when result is obsolete. Actual for real time data like trading rates, video/audio stream etc.
+- Stop executions when result is obsoleted after some timeout. Actual for real time data like trading rates, video/audio stream etc.
